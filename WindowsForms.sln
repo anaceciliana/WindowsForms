@@ -5,6 +5,32 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForms\WindowsForms.csproj", "{60C8E092-C7B5-4C2D-8950-EE11EB97CD80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{5938201F-EC02-4139-B81D-0FE91C3AFCC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{890BD6D5-E152-482B-8FE5-C04AF21A0402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{E8DED2BB-93D8-4547-98F0-ECB89B542BC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{7C10CB57-B147-411F-8265-8351FAEB51E2}"
+	ProjectSection(SolutionItems) = preProject
+		WindowsForms\Form1.cs = WindowsForms\Form1.cs
+		WindowsForms\Form1.Designer.cs = WindowsForms\Form1.Designer.cs
+		WindowsForms\Form1.resx = WindowsForms\Form1.resx
+		WindowsForms\pagina inicial.cs = WindowsForms\pagina inicial.cs
+		WindowsForms\pagina inicial.Designer.cs = WindowsForms\pagina inicial.Designer.cs
+		WindowsForms\pagina inicial.resx = WindowsForms\pagina inicial.resx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View1", "View1", "{B3D09C44-9F75-4E98-9955-F35C4B20DEC9}"
+	ProjectSection(SolutionItems) = preProject
+		WindowsForms\Form1.cs = WindowsForms\Form1.cs
+		WindowsForms\Form1.Designer.cs = WindowsForms\Form1.Designer.cs
+		WindowsForms\Form1.resx = WindowsForms\Form1.resx
+		WindowsForms\pagina inicial.cs = WindowsForms\pagina inicial.cs
+		WindowsForms\pagina inicial.Designer.cs = WindowsForms\pagina inicial.Designer.cs
+		WindowsForms\pagina inicial.resx = WindowsForms\pagina inicial.resx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

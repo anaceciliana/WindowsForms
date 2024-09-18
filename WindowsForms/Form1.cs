@@ -16,8 +16,22 @@ namespace WindowsForms
         {
             InitializeComponent();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(txbName.Text + "\n" + txbCpf.Text + "\n" + txbTel.Text + "\n" + txbEmail.Text + "\n" + txbRg.Text + "\n" + txbEnd.Text);
 
-        private void Form1_Load(object sender, EventArgs e)
+            pagina_inicial frm = new pagina_inicial();
+                this. Visible = false;
+            frm.ShowDialog();
+            this.Visible = true;    
+        }
+
+        private void txbEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbRg_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -25,31 +39,6 @@ namespace WindowsForms
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(txbName.Text + "\n" + txbCpf.Text + "\n" + txbTel.Text + "\n" + txbEmail + "\n" + txbRg + "\n" + txbEnd);
         }
     }
 }
